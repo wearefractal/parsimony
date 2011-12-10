@@ -1,0 +1,30 @@
+{
+   "name":"parsimony",
+   "description":"simple parsing",
+   "version":"0.0.1",
+   "homepage":"http://github.com/wearefractal/parsimony",
+   "repository":"git://github.com/wearefractal/parsimony",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+    "main":"./parsimony.coffee",
+
+   "engines":{
+      "node":">= 0.4.0"
+   },
+
+   "dependencies":{
+      "protege":"*",
+      "coffee-script":"*"
+   },
+    
+   "devDependencies":{
+      "should":"*"
+   },
+
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/parsimony/raw/master/LICENSE"
+      }
+   ]
+}
+
