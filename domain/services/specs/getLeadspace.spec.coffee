@@ -9,7 +9,9 @@ code = "  foo = 1\nbar = 2"
 
 #>> When I get the leadspace
 
-getLeadspace code, (leadspace) ->
+leadspace = getLeadspace code
+
+#>> Then
   
-  leadspace.should.equal "  "
+leadspace.should.equal "  "
 
