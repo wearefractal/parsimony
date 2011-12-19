@@ -10,7 +10,7 @@ code = "i think that this tokenizing:service is cool"
 #>> When the code is tokenized
 
 tokenize code, " ", (tokens) ->
-  
+
 #>> Then 
 
   tokens.length.should.equal 7
