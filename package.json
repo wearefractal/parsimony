@@ -1,11 +1,11 @@
 {
    "name":"parsimony",
-   "description":"simple parsing",
+   "description":"tokenizing parser",
    "version":"0.0.1",
    "homepage":"http://github.com/wearefractal/parsimony",
    "repository":"git://github.com/wearefractal/parsimony",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-    "main":"./parsimony.coffee",
+    "main":"./domain/parsimony.coffee",
 
    "engines":{
       "node":">= 0.4.0"
